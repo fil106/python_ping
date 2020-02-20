@@ -11,7 +11,7 @@ print ('---Запускаю пинги...')
 for ip in user_subnet:
 
 	if ip == user_subnet[0]:
-		print (str(ip) + ' - шлюз')
+		print (str(ip) + ' - сеть')
 		continue
 	elif ip == user_subnet.broadcast_address:
 		print (str(ip) + ' - широковещательный адрес')
