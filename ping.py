@@ -3,7 +3,7 @@ from pythonping import ping
 import ipaddress
 
 #Получаем подсеть от пользователя
-user_subnet = ipaddress.ip_network(input('Какую сеть пингуем?:'))
+user_subnet = ipaddress.ip_network(input('Что пингуем?:'))
 #Фиксируем время начала выполнения скрипта
 time_start = datetime.now()
 
